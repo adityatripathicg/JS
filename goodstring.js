@@ -5,3 +5,5 @@ if(str[0]==="a" && str.length > 3){
 else{
     console.log("Not a good String");
 }
+alert("error!");
+prompt("enter age?");
