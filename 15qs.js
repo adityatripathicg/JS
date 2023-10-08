@@ -46,5 +46,4 @@ else if(b>a && b>c){
 }
 else{
     console.log("the largest num is ", c);
-    console.log("the largest num is ", c);
-}
+}   
