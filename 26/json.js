@@ -6,5 +6,6 @@ fetch(url)
     console.log(res);
     res.json().then((data)=>{
         console.log(data);
+        //cg
     })
 })
