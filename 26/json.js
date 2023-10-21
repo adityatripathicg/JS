@@ -18,5 +18,13 @@ fetch(url)
 async function getfacts(){
     let res = await fetch(url);
     let data = await res.json();
-    console.log(data);
+    console.log(data.fact);
 }
+getfacts();
+
+//axios library
+async function gf(){
+    let res = await axios.get(url);
+    console.log(res.data.fact);
+}
+gf();
